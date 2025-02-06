@@ -1,7 +1,5 @@
 /*Tipos de datos*/
 
-// ---> NUMEROS
-
 let a = 30
 let b = 12
 let suma = a + b
