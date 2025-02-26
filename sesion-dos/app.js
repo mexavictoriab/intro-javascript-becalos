@@ -1,6 +1,4 @@
-const EvaluadorNotas = () => {
-    
-    let nota = prompt( "ingresa tu nota en valor numérico")
+const EvaluadorNotas = (nota) => {
     nota = Number(nota)
 
     if(nota >= 90 ){
@@ -15,5 +13,7 @@ const EvaluadorNotas = () => {
     
 }
 
-let notaAlumno = EvaluadorNotas()
+let nota = prompt( "ingresa tu nota en valor numérico")
+
+let notaAlumno = EvaluadorNotas(nota);
 console.log(notaAlumno);
