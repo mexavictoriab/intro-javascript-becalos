@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caja de comentarios */
+.cajaComentarios {
+    width: 400px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1da1f2; /* Color azul de Twitter */
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0d8ddf;
+}
+
+/* Lista de comentarios */
+.comentarios {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.comentarios li {
+    background: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Texto del comentario */
+.comentarios li span {
+    font-size: 14px;
+    color: #14171a;
+}
+
+/* Fecha y hora */
+.comentarios li small {
+    font-size: 12px;
+    color: #657786;
+    margin-top: 5px;
+}
+
+/* Botón de eliminar */
+.comentarios li .eliminar {
+    background: none;
+    border: none;
+    color: #e0245e;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.comentarios li .eliminar:hover {
+    color: #ff3366;
+}
