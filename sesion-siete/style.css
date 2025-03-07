@@ -1,0 +1,18 @@
+
+.addButton{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+}
+
+.btn-blue{
+    background-color: rgb(102, 102, 221);
+    box-shadow: 2px 2px 2px rgb(193, 193, 238);
+    color: white;
+}
+
+.btn-green{
+    background-color: rgb(106, 250, 106);
+    box-shadow: 2px 2px 2px rgb(193, 250, 193);;
+    color: white;
+}
